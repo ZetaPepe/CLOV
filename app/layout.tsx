@@ -8,10 +8,10 @@ import Plasma from "@/components/plasma"
 const inter = Inter({ subsets: ["latin"], display: "swap" })
 
 export const metadata: Metadata = {
-  title: "CLOV | AI-Powered Influencer Valuation for Crypto Markets",
+  title: "CLOV",
   description:
     "Get AI-powered market cap estimations for social media influencers' potential cryptocurrency tokens. Submit any influencer's identity for comprehensive multi-model analysis and valuation.",
-  generator: "v0.app",
+  generator: "CLOV",
 }
 
 export default function RootLayout({
@@ -71,6 +71,12 @@ export default function RootLayout({
             gtag('config', 'G-W6LV22900R');
           `}
         </Script>
+        
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body>
         <div className="fixed inset-0 z-0 bg-black">
