@@ -21,12 +21,12 @@ export function LogoMarquee() {
     {
       name: "Dexscreener",
       image: "/images/dexscreener-icon.png",
-      url: "https://dexscreener.com",
+      url: "",
     },
     {
       name: "Pump.fun",
       image: "/images/pumpfun-icon.png",
-      url: "https://pump.fun",
+      url: "",
     },
     {
       name: "Telegram",
